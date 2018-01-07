@@ -1,0 +1,8 @@
+#/bin/bash
+
+response=$(ls /sys/class/backlight/ | grep intel_backlight)
+if [ "$response" == intel_backlight ]; then
+	echo "Probably"
+else
+	echo "Probably not"
+fi
