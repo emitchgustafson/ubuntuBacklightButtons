@@ -1,0 +1,3 @@
+Some laptops runnign intel integrated graphics lose contorl of there default brightness keys, this adds them back.
+Run both commands as sudo
+I know this isn;t complex, i'm just sick of looking it up over and over again
